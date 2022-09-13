@@ -51,7 +51,7 @@ namespace Haromszog
                     break;
 
                 case '2':
-                    Console.Write($"A téglalap területe {(co * 0.5) * mag} cm2");
+                    Console.Write($"A téglalap területe {(co * mag) * 0.5} cm2");
                     Console.ReadLine();
                     break;
 
